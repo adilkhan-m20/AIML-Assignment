@@ -1,0 +1,18 @@
+{
+  "model": "LinearRegression",
+  "dataset": "California Housing (fallback: Diabetes)",
+  "task": "Tabular Regression",
+  "preprocessing": "StandardScaler on all numeric features",
+  "target": "MedianHouseValue (or Diabetes target)",
+  "metrics": {
+    "RMSE": 0.7455813830127761,
+    "MAE": 0.5332001304956565,
+    "R2": 0.5757877060324511
+  },
+  "intended_use": "Introductory ML coursework; not for real-estate decisions",
+  "limitations": [
+    "Linear model \u2014 cannot capture feature interactions or nonlinearity.",
+    "No feature engineering; sensitive to outliers and collinearity."
+  ],
+  "owner": "Student"
+}

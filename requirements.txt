@@ -1,0 +1,9 @@
+# ===== Core Numerical & Data Libraries =====
+numpy>=1.25
+pandas>=2.0
+
+# ===== Machine Learning & Model Evaluation =====
+scikit-learn>=1.4
+
+# ===== Visualization =====
+matplotlib>=3.8
